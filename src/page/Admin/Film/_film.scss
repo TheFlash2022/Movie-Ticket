@@ -1,0 +1,57 @@
+
+.list-movie{
+    .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button ,
+    .ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link,
+    button {
+        margin:0;
+        &:hover{
+            background-color:$primary-color;
+            color:white;
+        }
+    }
+    .anticon svg{
+        font-size:20px;
+        border: none;
+    }
+    .ant-input:focus{
+        box-shadow: 0 0 0 2px rgb(251 66 38 / 20%);
+    }
+    .ant-input-group > .ant-input:first-child
+    {
+        border-color: $primary-color!important;
+    border-radius: 20px 0 0  20px;
+    }
+    .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+        border-radius:0 20px 20px 0;
+        border-color: $primary-color!important;
+    }
+    .anticon{
+        vertical-align: 0 !important;
+    }
+}
+
+.ant-layout-sider-has-trigger{
+    flex: 0 0 250px !important;
+    max-width: 250px !important;
+    min-width: 200px;
+    width: 250px !important;
+}
+.back{
+    padding-bottom: 40px;
+    button{
+        transition: all .7s;
+        margin: inherit;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px ;
+    background:$color-0-white ;
+    font-weight:bold;
+    &:hover{
+        background:$primary-color;
+        color:$color-0-white;
+        border-color:$primary-color;
+    }
+    }
+}
